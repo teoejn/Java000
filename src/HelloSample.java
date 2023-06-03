@@ -1,4 +1,6 @@
 public class HelloSample {
+    //Static methods - You should use static methods when you do not need to
+    //access or modify the object's state without an object instance.
     static void myMethod() {
         /*Operators*/
         float x = 5;
@@ -25,7 +27,6 @@ public class HelloSample {
         char splAlphabet = '\u00AE'; //2byte
         byte num = 125; //1byte
         System.out.println(splAlphabet); //®
-
     }
     public static void main(String[] args) {
         /*keywords are very important, public and Public are two different keywords**/

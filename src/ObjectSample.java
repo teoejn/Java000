@@ -21,11 +21,11 @@ public class ObjectSample {
         standardCar.carStart();
         standardCar.carShutOff();
 
-        DirtCar d1 = new DirtCar();
-        d1.setMillage(6);
-        d1.setPrice(10000);
-        d1.setDoors(2);
-        d1.setTopSpeed(45);
+        DirtCar d1 = new DirtCar(6,10000,2,45);
+        //d1.setMillage(6);
+        //d1.setPrice(10000);
+        //d1.setDoors(2);
+        //d1.setTopSpeed(45);
         System.out.println("Dirt Car's Millage is " + d1.getMillage());
         System.out.println("Dirt Car's Price is " + d1.getPrice());
         System.out.println("Dirt Car's Door is " + d1.getDoors());

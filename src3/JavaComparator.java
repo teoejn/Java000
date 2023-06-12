@@ -29,7 +29,7 @@ public class JavaComparator {
         Collections.reverse(intList_2); //5-1
         System.out.println("After Sort: " + intList_2);
 
-        Comparator<Integer> comparator_str = new JavaComparator_2();
-        comparator_str.compare(1,2);
+        Comparator<Integer> comparator_int = new JavaComparator_2();
+        comparator_int.compare(1,2);
     }
 }

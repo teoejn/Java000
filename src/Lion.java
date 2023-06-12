@@ -1,4 +1,4 @@
-public class Lion implements Animal111 {
+public class Lion implements Animal {
 
     @Override
     public void makeSound() {
